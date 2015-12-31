@@ -10,14 +10,14 @@ void main(){
 	Fraction v[N];
 	int inputValue;	
 	
-	cout << "輸入4數字 ";
+	cout << "Input Four Integers ";
 	for (int i = 0; i < 4; ++i){
 		cin >> inputValue;
 		v[i].setValue(inputValue);
 	}										
 	
 	char o[N] = {0};
-	cout << "輸入為 ";
+	cout << "Your input ";
 	for (int i = 0; i < N; ++i){
 		 v[i].printValue();
 		if (i != N-1){
